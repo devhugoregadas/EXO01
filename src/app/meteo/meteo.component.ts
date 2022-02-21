@@ -26,7 +26,7 @@ export class MeteoComponent implements OnInit {
   }
 
   async search() {
-    const data = await this._service.getMeteo(this.form.value.city);
+    const data = await this._service.getMeteo('geneva');
     this.data = data;
   }
 }

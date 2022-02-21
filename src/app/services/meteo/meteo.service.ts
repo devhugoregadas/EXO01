@@ -18,7 +18,7 @@ export class MeteoService {
   const options = {
     headers: new HttpHeaders ({
       "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-      "x-rapidapi-key": "dcd0c2e513msh9ac6b22ca4c1aedp144461jsn7ac2480bf4a3"
+      "x-rapidapi-key": ""
     })
   };
   const req = this._http.get(url);
